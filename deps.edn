@@ -1,0 +1,10 @@
+{:paths
+ ["src"]
+
+ :deps
+ {}
+
+ :aliases
+ {:dev {:extra-deps {cider/cider-nrepl {:mvn/version "0.17.0-SNAPSHOT"}}}
+  :test {:extra-deps {pjstadig/humane-test-output {:mvn/version "0.8.3"}}
+         :extra-paths ["test"]}}}
