@@ -1,1 +1,1 @@
-{:npm-deps {:luxon "0.5.3"}}
+{:npm-deps {:luxon "^0.5.3"}}

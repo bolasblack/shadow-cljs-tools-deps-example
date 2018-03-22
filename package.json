@@ -1,15 +1,13 @@
 {
   "scripts": {
     "watch": "shadow-cljs watch main main-test",
-    "watch:test": "chokidar lib/main-test.js --initial -c 'npm test'",
-    "compile": "shadow-cljs compile main main-test",
-    "test": "node lib/main-test.js"
+    "compile": "shadow-cljs compile main"
   },
   "dependencies": {
-    "luxon": "0.5.3"
+    "luxon": "^0.5.3"
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.0",
-    "shadow-cljs": "^2.2.1"
+    "shadow-cljs": "^2.2.16",
+    "source-map-support": "^0.5.4"
   }
 }
