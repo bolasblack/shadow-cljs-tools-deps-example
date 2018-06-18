@@ -3,3 +3,4 @@ lib
 .shadow-cljs
 .cpcache
 .lumo_cache
+.nrepl-*
