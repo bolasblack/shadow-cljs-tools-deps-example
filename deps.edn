@@ -2,7 +2,7 @@
  ["src"]
 
  :deps
- {}
+ {org.clojure/test.check {:mvn/version "0.10.0-alpha3"}}
 
  :aliases
  {:dev {:extra-deps {cider/cider-nrepl {:mvn/version "0.17.0-SNAPSHOT"}}}
