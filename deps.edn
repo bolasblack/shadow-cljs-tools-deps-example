@@ -5,6 +5,7 @@
  {org.clojure/test.check {:mvn/version "0.10.0-alpha3"}}
 
  :aliases
- {:dev {:extra-deps {cider/cider-nrepl {:mvn/version "0.17.0-SNAPSHOT"}}}
+ {:dev {:extra-deps {refactor-nrepl {:mvn/version "2.4.0"}
+                     cider/cider-nrepl {:mvn/version "0.18.0"}}}
   :test {:extra-deps {pjstadig/humane-test-output {:mvn/version "0.8.3"}}
          :extra-paths ["test"]}}}

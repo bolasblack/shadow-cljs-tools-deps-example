@@ -7,5 +7,10 @@
    [cljs.test :as ct :refer [deftest testing is]]
    [test.core :as c]))
 
+(defn -main [])
+
 (deftest hello
   (is (c/test-fn identity) 1))
+
+(deftest js-dot
+  (is (.-a #js {:a 1})))
